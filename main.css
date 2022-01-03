@@ -1,0 +1,132 @@
+/* ----- Media Queries -----*/
+@media only screen and (max-width: 300em) {
+    h1 {
+        font-size: 4em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (min-width: 600em) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+/* ----- Page -----*/
+
+body {
+    margin: 0px;
+}
+
+li {
+    font-family: Verdana, sans-serif;
+}
+
+a, time {
+    color: #222823;
+    text-decoration: none;
+}
+
+*{
+    border: 0px solid red;
+}
+
+/* ----- Front Page Header -----*/
+
+h1 {
+    color: #222823;
+    font-family: "Luxurious Roman", Georgia, serif;
+    font-size: 6em;
+    text-align: center;
+    text-shadow: 4px 4px 4px #A78f8a;
+    margin-bottom: 0em;
+}
+
+header {
+    padding-bottom: 50px;
+}
+
+#page-tagline {
+    text-align: center;
+    margin-top: -30px;
+}
+
+/* ----- Front Page Main Navigation -----*/
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    text-align: center;
+}
+
+li.main-nav {
+    display: inline-block;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+li.main-nav > a:hover {
+    color: #475a5e;
+}
+
+li.main-nav > a:active {
+    color: #475a5e;
+}
+
+/* ----- sections -----*/
+
+section {
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 5em;
+    padding: 1em 2em 1em 2em;
+    border-radius: 2em;
+    box-shadow: 5px 5px 20px #475a5e, inset 0px 0px 110px #a7a2a9;
+}
+
+h2{
+    color: #475a5e;
+    font-family: "Luxurious Roman", Georgia, serif;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 0em;
+    padding-top: 15px;
+}
+
+p {
+    color: #08090A;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 5px auto;
+    width: auto;
+    height: auto;
+}
+
+/* ----- footer ----- */
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    display: block;
+    margin: 0px;
+    background: #f4f7f5;
+    padding: 20px 40px 20px 40px;
+}
+
+.bottom-nav {
+    font-size: 1.7em;
+    line-height: 2.0;
+}
